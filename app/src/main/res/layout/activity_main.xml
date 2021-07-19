@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.miracle.flowlayout.TagFlowLayout
+        android:id="@+id/brand_flowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:at_least_checked_num="1"
+        app:max_select="1" />
+
+    <com.miracle.flowlayout.TagFlowLayout
+        android:id="@+id/model_flowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:at_least_checked_num="1"
+        app:max_select="1" />
+
+</LinearLayout>
