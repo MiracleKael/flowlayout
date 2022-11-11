@@ -2,16 +2,20 @@
 在鸿洋的流式布局库flowlayout（https://github.com/hongyangAndroid/FlowLayout）  ；的基础上，增加了数据刷新、初始化默认选中以及最少选中条数的功能
 如何使用？
 如何使用？
+
+```
 allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-    
+ ```
+ ```
      dependencies {
 	        implementation 'com.github.MiracleKael:flowlayout:Tag'
 	}
+```
 
 基本用法看鸿洋的，这里只描述一下新增的功能。
 
